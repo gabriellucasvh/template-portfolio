@@ -12,7 +12,7 @@ interface CaseProps {
 
 const Case: React.FC<CaseProps> = ({ title, description, serviceType, imageUrl, reverse }) => (
   <div
-    className={`flex items-center justify-between ${reverse ? 'flex-row-reverse' : ''}`}
+    className={`flex items-center justify-between ${reverse ? 'flex-row-reverse text-right' : ''}`}
   >
     <div>
       <Image
