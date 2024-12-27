@@ -8,7 +8,7 @@ import Titulo from '../Typograghy/Titulo';
 
 const Sobre = () => {
     return (
-        <div className="px-20">
+        <div className="px-20" id='sobre'>
             {/* Seção Marquee */}
             <div className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-background">
                 <Marquee className="[--duration:10s] w-full">
@@ -49,7 +49,7 @@ const Sobre = () => {
                             </Link>
                             <Separator className="w-1/2" />
                         </li>
-                        <li className="hover:text-green-500 transition-colors duration-300 bg-slate-700">
+                        <li className="hover:text-green-500 transition-colors duration-300">
                             <span>
 
                                 <Link href="https://www.whatsapp.com" target="_blank" rel="noreferrer noopener">

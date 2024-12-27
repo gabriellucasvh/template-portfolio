@@ -22,13 +22,13 @@ const SkillsCards = () => [
 ]
 const Skills = () => {
     return (
-        <div className='flex flex-col items-center justify-center px-20 min-h-screen space-y-10'>
+        <div className='flex flex-col items-center justify-center px-20 min-h-screen space-y-10' id='skills'>
             <div className='flex flex-col items-center justify-center space-y-5'>
                 <Titulo>Minhas Skills</Titulo>
                 <p className='text-center w-1/2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores fugit aspernatur quas, repellat </p>
             </div>
-            <div className='flex max-w-full justify-center gap-4'>
-                {SkillsCards().map((card, index) => (
+            <div className='flex flex-row max-w-full justify-center gap-4'>
+            {SkillsCards().map((card, index) => (
                     <Card className='w-96 h-44 p-4 text-center'>
                         <div key={index}>
                             <CardContent>
@@ -37,7 +37,7 @@ const Skills = () => {
                             </CardContent>
                         </div>
                     </Card>
-                ))}
+            ))}
             </div>
         </div>
     )
