@@ -13,9 +13,6 @@ interface CaseProps {
 const Case: React.FC<CaseProps> = ({ title, description, serviceType, imageUrl, reverse }) => (
   <div
     className={`flex items-center justify-between ${reverse ? 'flex-row-reverse' : ''}`}
-    data-aos="flip-up"
-    data-aos-delay="300"
-    data-aos-duration="1000"
   >
     <div>
       <Image
@@ -70,7 +67,7 @@ const Trabalhos = () => {
 
   return (
     <div className="px-20 min-h-screen" id="trabalhos">
-      <div className="flex items-center justify-between py-10" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+      <div className="flex items-center justify-between py-10">
         <Titulo>Trabalhos</Titulo>
         <p className="w-1/2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quis labore, nulla qui,

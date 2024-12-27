@@ -19,8 +19,6 @@ const Sobre = () => {
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-background">
         <Marquee
           className="[--duration:15s] w-full"
-          data-aos="zoom-out"
-          data-aos-duration="1000"
         >
           <div className="flex items-center justify-center space-x-3">
             <h3 className="text-4xl md:text-7xl font-bold">Sobre</h3>
@@ -46,9 +44,6 @@ const Sobre = () => {
         {/* Conteúdo Esquerda */}
         <div
           className="w-full md:w-1/2 space-y-5"
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-duration="1000"
         >
           <Titulo>Olá, me chamo Lorem</Titulo>
           <p>
@@ -82,9 +77,6 @@ const Sobre = () => {
         {/* Imagem Direita */}
         <div
           className="w-full md:w-1/2 flex justify-center md:justify-end overflow-hidden"
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          data-aos-duration="1000"
         >
           <Image
             src="/IMAGEMxy.png"

@@ -30,9 +30,6 @@ const Skills = () => {
       {/* Título e descrição */}
       <div
         className="flex flex-col items-center justify-center space-y-5"
-        data-aos="fade-up"
-        data-aos-delay="200"
-        data-aos-duration="1000"
       >
         <Titulo>Minhas Skills</Titulo>
         <p className="text-center max-w-md md:max-w-lg">
@@ -43,9 +40,6 @@ const Skills = () => {
       {/* Cards responsivos */}
       <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="1000"
       >
         {SkillsCards().map((card, index) => (
           <Card key={index} className="w-full max-w-sm p-4 text-center shadow-md">
