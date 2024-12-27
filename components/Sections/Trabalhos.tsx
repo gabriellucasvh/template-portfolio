@@ -5,13 +5,13 @@ import Image from 'next/image'
 const Trabalhos = () => {
   return (
     <div className='px-20 min-h-screen' id='trabalhos'>
-      <div className='flex items-center justify-between py-10'>
+      <div className='flex items-center justify-between py-10' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
         <Titulo>Trabalhos</Titulo>
         <p className='w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quis labore, nulla qui, similique, facilis excepturi placeat libero </p>
       </div>
       <div className='space-y-10 py-5'>
         {/* case 1 */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
           <div>
             <Image
               src="/IMAGEMx.png"
@@ -33,7 +33,7 @@ const Trabalhos = () => {
           </div>
         </div>
         {/* case 2 */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
           <div className="w-1/2 space-y-4">
             <h2 className="text-5xl font-bold">Titulo</h2>
             <p>
@@ -55,7 +55,7 @@ const Trabalhos = () => {
           </div>
         </div>
         {/* case 3 */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
           <div>
             <Image
               src="/IMAGEMx.png"
@@ -77,7 +77,7 @@ const Trabalhos = () => {
           </div>
         </div>
         {/* case 4 */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
           <div className="w-1/2 space-y-4">
             <h2 className="text-5xl font-bold">Titulo</h2>
             <p>

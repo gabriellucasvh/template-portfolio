@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Host_Grotesk } from "next/font/google";
 import "./globals.css";
+import { AOSInit } from './aos'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <AOSInit />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${hostGrotesk.variable} antialiased `}
       >

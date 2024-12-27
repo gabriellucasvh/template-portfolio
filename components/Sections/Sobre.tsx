@@ -11,7 +11,7 @@ const Sobre = () => {
         <div className="px-20" id='sobre'>
             {/* Seção Marquee */}
             <div className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-background">
-                <Marquee className="[--duration:10s] w-full">
+                <Marquee className="[--duration:10s] w-full" data-aos="zoom-out" data-aos-duration="1000">
                     <div className="flex items-center justify-center space-x-3">
                         <h3 className="text-7xl font-bold">Sobre</h3>
                         <p className="text-blue-500"><CircleDashed className='animate-spin' /></p>
@@ -28,7 +28,7 @@ const Sobre = () => {
             {/* Seção Sobre */}
             <div className="flex items-start justify-between py-10">
                 {/* Conteúdo Esquerda */}
-                <div className="w-1/2 space-y-5">
+                <div className="w-1/2 space-y-5" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                     <Titulo>Olá, me chamo Lorem</Titulo>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, optio. Error adipisci voluptates cum illum nemo assumenda, omnis earum velit, repudiandae non, suscipit ex iusto. Corrupti, velit. Eaque, officia natus!
@@ -74,7 +74,7 @@ const Sobre = () => {
                 </div>
 
                 {/* Imagem Direita */}
-                <div className="w-1/2 flex justify-end">
+                <div className="w-1/2 flex justify-end overflow-hidden" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                     <Image src="/IMAGEMxy.png" className='border shadow rounded-lg' alt="logo" width={500} height={500} />
                 </div>
             </div>
