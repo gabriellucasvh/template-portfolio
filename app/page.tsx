@@ -1,4 +1,4 @@
-import Menu from "@/components/Sections/Menu";
+import Inicio from "@/components/Sections/Inicio";
 import Header from "@/components/ui/Header";
 import BotaoWhatsapp from "@/components/BotaoWhatsapp";
 import VoltarAoTopo from "@/components/VoltarAoTopo";
@@ -13,7 +13,7 @@ export default function Home() {
     <div className="font-grotesk bg-background">
       <Header />
       <main className="container mx-auto">
-        <Menu />
+        <Inicio />
         <Sobre />
         <Skills />
         <Trabalhos />

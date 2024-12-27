@@ -12,38 +12,38 @@ const Footer = () => {
                 <div>
                     <ul>
                         <li>
-                            <Link href={'#inicio'}>Início</Link>
+                            <Link href={'#inicio'} className='text-gray-300 hover:text-white transition-colors duration-300'>Início</Link>
                         </li>
                         <li>
-                            <Link href={'#sobre'}>Sobre</Link>
+                            <Link href={'#sobre'} className='text-gray-300 hover:text-white transition-colors duration-300'>Sobre</Link>
                         </li>
                         <li>
-                            <Link href={'#servicos'}>Serviços</Link>
+                            <Link href={'#servicos'} className='text-gray-300 hover:text-white transition-colors duration-300'>Serviços</Link>
                         </li>
                         <li>
-                            <Link href={'#trabalhos'}>Trabalhos</Link>
+                            <Link href={'#trabalhos'} className='text-gray-300 hover:text-white transition-colors duration-300'>Trabalhos</Link>
                         </li>
                         <li>
-                            <Link href={'#contato'}>Contato</Link>
+                            <Link href={'#contato'} className='text-gray-300 hover:text-white transition-colors duration-300'>Contato</Link>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <ul>
                         <li>
-                            <Link href={'https://www.instagram.com/'} target='_blank'>Instagram</Link>
+                            <Link href={'https://www.instagram.com/'} className='text-gray-300 hover:text-white transition-colors duration-300' target='_blank'>Instagram</Link>
                         </li>
                         <li>
-                            <Link href={'https://www.facebook.com/'} target='_blank'>Facebook</Link>
+                            <Link href={'https://www.facebook.com/'} className='text-gray-300 hover:text-white transition-colors duration-300' target='_blank'>Facebook</Link>
                         </li>
                         <li>
-                            <Link href={'https://www.linkedin.com/'} target='_blank'>Linkedin</Link>
+                            <Link href={'https://www.linkedin.com/'} className='text-gray-300 hover:text-white transition-colors duration-300' target='_blank'>Linkedin</Link>
                         </li>
                     </ul>
                 </div>
             </div>
             <div className='flex items-center justify-center py-4'>
-                <p>Feito por <Link href={'https://github.com/gabriellucasvh'} className='underline hover:text-blue-500 transition-colors duration-300' target='_blank'>Gabriel</Link> • Copyright &copy; 2023. Todos os direitos reservados.</p>
+                <p>Feito por <Link href={'https://github.com/gabriellucasvh'} className='underline hover:text-blue-500 transition-colors duration-300' target='_blank'>Gabriel</Link> • Copyright &copy; 2024. Todos os direitos reservados.</p>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@ import Marquee from '../ui/marquee';
 import Link from 'next/link';
 import { Separator } from '../ui/separator';
 import Image from 'next/image';
-import { CircleDashed } from 'lucide-react';
+import { ChevronRight, CircleDashed } from 'lucide-react';
 import Titulo from '../Typograghy/Titulo';
 
 const Sobre = () => {
@@ -28,7 +28,7 @@ const Sobre = () => {
             {/* Seção Sobre */}
             <div className="flex items-start justify-between py-10">
                 {/* Conteúdo Esquerda */}
-                <div className="w-1/2 space-y-2">
+                <div className="w-1/2 space-y-5">
                     <Titulo>Olá, me chamo Lorem</Titulo>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, optio. Error adipisci voluptates cum illum nemo assumenda, omnis earum velit, repudiandae non, suscipit ex iusto. Corrupti, velit. Eaque, officia natus!
@@ -36,27 +36,39 @@ const Sobre = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam animi aliquid placeat inventore expedita, vero suscipit aspernatur tempore deleniti consectetur nam magnam, odio ipsa exercitationem voluptas quae doloribus quos!
                     </p>
-                    <ul className="flex flex-col space-y-2 text-xl">
-                        <li className="hover:text-red-500 transition-colors duration-300">
-                            <Link href="https://www.instagram.com" target="_blank" rel="noreferrer noopener">
-                                Instagram
+                    <ul className="flex flex-col space-y-5 text-xl">
+                        <li className="flex items-center">
+                            <Link
+                                href="https://www.instagram.com"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="flex items-center hover:text-red-500 transition-colors duration-300"
+                            >
+                                <ChevronRight /> Instagram
                             </Link>
-                            <Separator className="w-1/2" />
+                            <Separator className="ml-3 flex-1" />
                         </li>
-                        <li className="hover:text-blue-500 transition-colors duration-300">
-                            <Link href="https://www.facebook.com" target="_blank" rel="noreferrer noopener">
-                                Facebook
+                        <li className="flex items-center">
+                            <Link
+                                href="https://www.facebook.com"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="flex items-center hover:text-blue-500 transition-colors duration-300"
+                            >
+                                <ChevronRight /> Facebook
                             </Link>
-                            <Separator className="w-1/2" />
+                            <Separator className="ml-3 flex-1" />
                         </li>
-                        <li className="hover:text-green-500 transition-colors duration-300">
-                            <span>
-
-                                <Link href="https://www.whatsapp.com" target="_blank" rel="noreferrer noopener">
-                                    Whatsapp
-                                </Link>
-                            </span>
-                            <Separator className="w-1/2" />
+                        <li className="flex items-center">
+                            <Link
+                                href="https://www.whatsapp.com"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="flex items-center hover:text-green-500 transition-colors duration-300"
+                            >
+                                <ChevronRight /> Whatsapp
+                            </Link>
+                            <Separator className="ml-3 flex-1" />
                         </li>
                     </ul>
                 </div>
