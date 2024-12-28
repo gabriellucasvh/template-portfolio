@@ -67,7 +67,7 @@ const Trabalhos = () => {
 
   return (
     <div className="lg:px-20 min-h-screen mt-10" id="trabalhos">
-      <div className="flex flex-col lg:flex-row text-center items-center justify-between py-10">
+      <div className="flex flex-col lg:flex-row text-center items-center justify-between py-10 pt-20">
         <Titulo>Trabalhos</Titulo>
         <p className="w-full lg:w-1/2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quis labore, nulla qui,
