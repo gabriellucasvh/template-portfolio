@@ -11,7 +11,7 @@ const Contato = () => {
                 {/* Informações de contato */}
                 <div className="space-y-5 text-center md:text-left">
                     <Titulo>Contato</Titulo>
-                    <div className="grid gap-2">
+                    <div className="flex flex-col items-start gap-2 ">
                         <Link
                             href="https://wa.me/5599999999999"
                             className="flex items-center justify-center md:justify-start hover:text-green-500 transition-colors duration-300"
@@ -32,7 +32,7 @@ const Contato = () => {
                     </div>
                 </div>
                 {/* Imagem */}
-                <div className="flex justify-center">
+                <div className="flex justify-center py-10 lg:py-0">
                     <Image
                         src="/IMAGEMxy.png"
                         className="border shadow rounded-lg"

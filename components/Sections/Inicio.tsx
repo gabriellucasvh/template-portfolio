@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Inicio = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen px-4 space-y-6 md:space-y-8 text-center"
+      className="flex flex-col items-center justify-center min-h-96 lg:min-h-screen px-4 space-y-6 md:space-y-8 text-center"
       id="inicio"
     >
       {/* Título e subtítulo */}
@@ -28,7 +28,7 @@ const Inicio = () => {
       <Link
         href="#contato"
       >
-        <InteractiveHoverButton text="Fale comigo" className="w-40 md:w-48" />
+        <InteractiveHoverButton text="Fale comigo" className="w-44 md:w-48" />
       </Link>
     </div>
   )

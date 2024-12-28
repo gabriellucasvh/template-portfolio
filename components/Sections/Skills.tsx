@@ -5,19 +5,19 @@ import Titulo from '../Typograghy/Titulo'
 const SkillsCards = () => [
   {
     title: 'Card Title',
-    description: 'Card Description',
+    description: 'Card Description Lorem Lorem Lorem',
   },
   {
     title: 'Card Title 2',
-    description: 'Card Description',
+    description: 'Card Description Lorem Lorem Lorem',
   },
   {
     title: 'Card Title 3',
-    description: 'Card Description',
+    description: 'Card Description Lorem Lorem Lorem',
   },
   {
     title: 'Card Title 4',
-    description: 'Card Description',
+    description: 'Card Description Lorem Lorem Lorem',
   },
 ]
 
@@ -42,7 +42,7 @@ const Skills = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
       >
         {SkillsCards().map((card, index) => (
-          <Card key={index} className="w-full max-w-sm p-4 text-center shadow-md">
+          <Card key={index} className="min-w-full p-4 text-center shadow-md">
             <CardContent>
               <CardTitle className="text-xl md:text-2xl">{card.title}</CardTitle>
               <CardDescription className="text-sm md:text-base">
