@@ -66,7 +66,7 @@ const Trabalhos = () => {
   ];
 
   return (
-    <div className="px-20 min-h-screen" id="trabalhos">
+    <div className="px-20 min-h-screen mt-10" id="trabalhos">
       <div className="flex items-center justify-between py-10">
         <Titulo>Trabalhos</Titulo>
         <p className="w-1/2">

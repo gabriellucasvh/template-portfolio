@@ -1,5 +1,29 @@
 import { Menu } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react';
+
+const HeaderProps = () => [
+    {
+        name: 'Inicio',
+        href: '#inicio',
+    },
+    {
+        name: 'Sobre',
+        href: '#sobre',
+    },
+    {
+        name: 'Skills',
+        href: '#skills',
+    },
+    {
+        name: 'Trabalhos',
+        href: '#trabalhos',
+    },
+    {
+        name: 'Contato',
+        href: '#contato',
+    },
+]
 
 const Header = () => {
     return (
@@ -10,9 +34,18 @@ const Header = () => {
                         Logo
                     </a>
                 </h1>
-                <button aria-label="Abrir menu de navegação">
-                    <Menu className="w-10 h-10" />
-                </button>
+
+                <div className='flex flex-row gap-5'>
+                    {HeaderProps().map((item) => (
+                        <ul>
+                            <li key={item.name}>
+                                <Link href={item.href} className='hover:text-green-500 transition-colors duration-300'>
+                                    {item.name}
+                                </Link>
+                            </li>
+                        </ul>
+                    ))}
+                </div>
             </nav>
         </header>
     );
