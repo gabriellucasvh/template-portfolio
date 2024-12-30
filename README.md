@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Template de Portfolio
 
-## Getting Started
+Um template personalizável e responsivo para criar portfólios modernos e atraentes. Ideal para desenvolvedores, designers ou profissionais que desejam exibir suas habilidades e projetos.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **React**
+- **Next.js**
+#### Customização:
+- **Tailwind**
+- **Shadcn**
+- **Magic UI**
+
+## Funcionalidades
+
+- **Início**: Seção principal com uma breve introdução.
+- **Sobre**: Informações sobre você, com uma imagem e botões para as redes sociais.
+- **Skills**: Seção para destacar suas skills.
+- **Trabalhos**: Seção para exibir alguns de seus trabalhos, com imagens, descrições e o tipo de serviço/cargo.
+- **Contato**: Seção que exibe suas informações de contato, como whatsapp, email e endereço.
+## Instalação
+
+Clone o repositório com:
 ```
+git clone https://github.com/gabriellucasvh/template-portfolio/
+```
+Instale as dependências:
+```bash
+  npm install
+```
+E altere as imagens, links e textos para seu melhor uso
+    
+## Contribuindo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar PRs para melhorias.
+## Referência
+Esse projeto foi uma inspiração por:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ - [Ricardo Moura](https://github.com/RicardoMouraa)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Licença
 
-To learn more about Next.js, take a look at the following resources:
+[MIT](https://choosealicense.com/licenses/mit/) - Livre para uso pessoal e comercial
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+####  Criado por [Gabriel Gonçalves](https://gabriellucasvh.vercel.app/)  📌
