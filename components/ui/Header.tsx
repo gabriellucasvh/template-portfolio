@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
-import { Button } from "./button"
+import { Button } from "./button";
 import {
     Sheet,
     SheetClose,
@@ -10,7 +9,7 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-} from "@/components/ui/sheet"
+} from "@/components/ui/sheet";
 import { Menu } from 'lucide-react';
 
 const HeaderProps = () => [
@@ -41,9 +40,9 @@ const Header = () => {
         <header className="hidden lg:block fixed top-0 z-50 w-full bg-background shadow">
             <nav className="max-w-screen-xl mx-auto px-4 flex items-center justify-between py-4">
                 <h1 className="text-2xl font-bold">
-                    <a href="/" aria-label="Página inicial">
+                    <Link href="/" aria-label="Página inicial">
                         Logo
-                    </a>
+                    </Link>
                 </h1>
                 <div>
                     <ul className='flex flex-row gap-5'>
@@ -66,9 +65,9 @@ export const MobileHeader = () => {
         <header className="lg:hidden fixed top-0 z-50 w-full bg-background shadow">
             <nav className="max-w-screen-xl mx-auto px-4 flex items-center justify-between py-4">
                 <h1 className="text-2xl font-bold">
-                    <a href="/" aria-label="Página inicial">
+                    <Link href="/" aria-label="Página inicial">
                         Logo
-                    </a>
+                    </Link>
                 </h1>
 
                 <Sheet>
