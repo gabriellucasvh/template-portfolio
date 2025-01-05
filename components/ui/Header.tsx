@@ -38,7 +38,7 @@ const HeaderProps = () => [
 const Header = () => {
     return (
         <header className="hidden lg:block fixed top-0 z-50 w-full bg-background shadow">
-            <nav className="max-w-screen-xl mx-auto px-4 flex items-center justify-between py-4">
+            <nav className="max-w-screen-xl mx-auto flex items-center justify-between py-4">
                 <h1 className="text-2xl font-bold">
                     <Link href="/" aria-label="Página inicial">
                         Logo

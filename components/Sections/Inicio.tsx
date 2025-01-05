@@ -19,7 +19,7 @@ const Inicio = () => {
 
       {/* Descrição */}
       <p
-        className="text-sm md:text-base max-w-md"
+        className="text-sm md:text-base max-w-xl"
       >
         Descrição
       </p>

@@ -20,8 +20,8 @@ export default function Home() {
         <Skills />
         <Trabalhos />
         <Contato />
-        <Footer />
       </main>
+        <Footer />
       <BotaoWhatsapp />
       <VoltarAoTopo />
     </div>
