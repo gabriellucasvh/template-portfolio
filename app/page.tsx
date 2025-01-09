@@ -1,6 +1,5 @@
 import Inicio from "@/components/Sections/Inicio";
-import Header from "@/components/ui/Header";
-import { MobileHeader } from "@/components/ui/Header";
+import Header, { MobileHeader } from "@/components/ui/Header";
 import BotaoWhatsapp from "@/components/BotaoWhatsapp";
 import VoltarAoTopo from "@/components/VoltarAoTopo";
 import Sobre from "@/components/Sections/Sobre";

@@ -72,8 +72,8 @@ export const MobileHeader = () => {
 
                 <Sheet>
                     <SheetTrigger asChild>
-                        <Button variant="ghost" className="p-2">
-                            <Menu className="h-6 w-6" />
+                        <Button variant="ghost">
+                            <Menu className='min-w-6 min-h-6' />
                         </Button>
                     </SheetTrigger>
                     <SheetContent side="right" className="w-64 font-grotesk">
